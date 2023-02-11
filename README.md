@@ -2,7 +2,7 @@
 
 This repository has 2 tests developed with Cypress.io technology
 One test is an E2E of a website and the other test is a CRUD to validate API responses.
-
+You can found the projects in master branch
 
 Option spec.cy.js
 
