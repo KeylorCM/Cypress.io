@@ -2,6 +2,7 @@
 
 This repository has 2 tests developed with Cypress.io technology
 One test is an E2E of a website and the other test is a CRUD to validate API responses.
+
 You can found the projects in master branch
 
 Option spec.cy.js
@@ -122,64 +123,7 @@ Made by Keylor Calvo Marin
 
 
 
--Español--------------------------------------------------------------
-
-# Automatizacion API Test
-Opcion API
-
-Ejercicio: 
-La pagina https://petstore.swagger.io/ proporciona la documentacion sobre apis de una "PetStore".
-Utilizando un software para pruebas de servicios REST realizar las siguientes pruebas, identificando las entradas, capturando las salidas,test, variables, etc, en cada uno de los siguientes casos:
-
-* Crear un usuario
-* Buscar el usuario creado
-* Actualizar el nombre y el correo del usuario 
-* Buscar el usuario actualizado
-* Eliminar el usuario 
-
-
-## Installation
-
-Use la documentacion ofical de Cypress [cypress.io](https://https://cypress.io/) para instar y alcanzar el mayor aprovechamiento de la herramienta.
-
-
-```bash
-$ npm install cypress -D
-
-```
-Si quieres crear un proyecto desde cero, ejecuta los siguientes comandos:
-```bash
-$ mkdir nombre-del-proycto && cd nombre-del-proyecto
-
-$ npm init -y
-
-$ npm install cypress –D
-
-$ npm run cy:open
-```
-
-
-## Usage
-
-Recomendacion utilizar el IDE de Visual Studio Code para correr los test, luego de descomprimir el archivo .zip en una ubicacion estrategica de nuestro directorio de archivamos vamos a utilizar la terminal para ejecutar los comandos de inicio y tener visibilidad de las pruebas .js
-
-```
-describe('Test API - CRUD', () => {
-  
-  //GET ALL 
-  it('GET - MainPage', () => {
-    cy.request('GET', 'https://petstore.swagger.io/').then((response) => {
-      expect(response).to.have.property('status', 200)
-    })
-  })
-```
-
-## Contributing
-
-Este es un ejercicio practico fue creado con el fin de ser evaluado en una prueba tecnica.
-Realizado por Keylor Calvo Marin
-
-
--2023-
 
 ## License
+
+
